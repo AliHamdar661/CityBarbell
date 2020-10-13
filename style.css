@@ -1,0 +1,290 @@
+body {
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+.title {
+    font-style: oblique;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 2px 2px 0.5px grey;
+    margin: 0px 0px 0px 25px;
+    display: inline;
+    color: rgb(39, 35, 34);
+}
+
+.nav-wrapper {
+    background-color: grey;
+}
+
+#cover {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#coverImage {
+    margin: 5px 0px 5px 0px;
+    box-shadow: 5px 5px 3px grey;
+    border-radius: 10%;
+}
+
+
+
+.hImages {
+    display: inline;
+    border-radius: 50%;  
+    box-shadow: 5px 5px 3px grey; 
+}
+
+#will {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin: 0px 0px 0px 10px;
+}
+
+#dedication {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#results {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    left: 80px;
+}
+
+.socialLinks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+#quotes1 {
+    margin: 50px 0px 0px 0px;
+}
+
+nav li {
+    font-style: oblique;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+}
+
+footer {
+    font-style: oblique;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    text-shadow: 2px 2px 0.5px grey;
+}
+
+.quotes {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.material-icons {
+    margin: 0px 0px 0px 5px;
+}
+
+.established {
+    font-size: xx-small;
+}
+
+.aboutImages {
+    border-radius: 50%;
+    box-shadow: 5px 5px 3px grey;
+    margin: 0px 10px 0px 10px;
+}
+
+#firstAboutParagraph {
+    margin: 0px 10px 0px 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+}
+
+#secondAboutParagraph {
+    margin: 0px 10px 0px 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+}
+
+#thirdAboutParagraph {
+    margin: 0px 10px 0px 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+}
+
+
+
+.classesDescription {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#classesIntroduction {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px 10px 0px 10px;
+    text-align: justify;
+}
+
+#lesmills {
+    border-radius: 20%;
+    box-shadow: 5px 5px 3px grey;
+}
+
+#checkOut {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px 10px 0px 10px;
+    text-align: center;
+    font-size: x-large;
+    text-shadow: 2px 2px 1px grey;
+}
+
+.scheduleGrid {
+    display: grid;
+    grid-template-columns: repeat(5, [col] auto);
+    grid-template-rows: repeat(4, [row] auto);
+    grid-gap: 20px;
+    margin: 10px 10px 10px 10px;
+}
+
+#dayAndTime {
+    background-color: grey;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 20%;
+    box-shadow: 5px 5px 2px grey;
+}
+
+.day {
+    background-color: rgb(167, 162, 162);
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    border-radius: 20%;
+    box-shadow: 5px 5px 2px grey;
+}
+
+.time {
+    background-color: rgb(167, 162, 162);
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    border-radius: 20%;
+    box-shadow: 5px 5px 2px grey;
+}
+
+.spinning {
+    background-color: lightblue;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    border-radius: 20%;
+    box-shadow: 5px 5px 2px grey;
+}
+
+.pilates {
+    background-color: lightcoral;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    border-radius: 20%;
+    box-shadow: 5px 5px 2px grey;
+}
+
+.yoga {
+    background-color: lightsalmon;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    border-radius: 20%;
+    box-shadow: 5px 5px 2px grey;
+}
+
+.bootyAndAbs {
+    background-color: maroon;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 20%;
+    box-shadow: 5px 5px 2px grey;
+}
+
+.zumba {
+    background-color: lightsalmon;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+    border-radius: 20%;
+    box-shadow: 5px 5px 2px grey;
+}
+
+.steelCombat {
+    background-color: lightsalmon;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    border-radius: 30%;
+    box-shadow: 5px 5px 2px grey;
+}
+
+.pump {
+    background-color: lightsalmon;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    border-radius: 20%;
+    box-shadow: 5px 5px 2px grey;
+}
+
+.contactIntroduction {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    margin: 10px 10px 10px 10px;
+}
+
+form {
+    margin: 10px 10px 10px 10px;
+}
+
+#footerResults {
+    margin: 0px 10px 0px 0px;
+}
+
+#firstParagraphImage {
+    float: left;
+}
+
+#secondParagraphImage {
+    float: right;
+}
+
+#thirdParagraphImage {
+    float: left;
+}
+
+#firstParagraph {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+#secondParagraph {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+#thirdParagraph {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+#submitButton {
+    background-color: grey;
+    text-decoration-color: black;
+    box-shadow: 5px 5px 2px grey;
+    border-radius: 20%;
+    margin: 0px 0px 20px 10px;
+}
+
+
+
