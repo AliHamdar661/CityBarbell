@@ -15,8 +15,9 @@ body {
     color: rgb(39, 35, 34);
 }
 
-.nav-wrapper {
+.navigation {
     background-color: grey;
+    box-shadow: 5px 5px 3px grey;
 }
 
 #cover {
@@ -54,10 +55,8 @@ body {
 
 #results {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    position: relative;
-    left: 80px;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
 }
 
 .socialLinks {
@@ -284,6 +283,14 @@ form {
     box-shadow: 5px 5px 2px grey;
     border-radius: 20%;
     margin: 0px 0px 20px 10px;
+}
+
+.list {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
 }
 
 
